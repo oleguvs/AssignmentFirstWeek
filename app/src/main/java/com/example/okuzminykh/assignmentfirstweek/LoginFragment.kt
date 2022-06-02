@@ -20,9 +20,9 @@ class LoginFragment : Fragment() {
     ): View {
         binding = FragmentLoginBinding.inflate(layoutInflater, container, false)
 
-        binding.userNameEditText.setOnFocusChangeListener { view, b ->
+        binding.userNameEditText.setOnFocusChangeListener { view, hasFocus ->
             binding.userName.error = null
-            if (!b) {
+            if (!hasFocus) {
                 val text = binding.userNameEditText.text.toString()
                 if (text.isNotEmpty()) validateUserNameContent(text)
             }
@@ -64,7 +64,6 @@ class LoginFragment : Fragment() {
         return if (!text.matches(REGEXP_FOR_USER_NAME.toRegex())) {
             if (binding.signInButton.isPressed) {
                 binding.passwordEditText.clearFocus()
-    //                showSoftKeyboard(binding.userNameEditText)
             }
             binding.userName.error = getString(R.string.user_name_error)
             false
