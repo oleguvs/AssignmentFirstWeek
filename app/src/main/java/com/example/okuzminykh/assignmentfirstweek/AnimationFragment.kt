@@ -28,10 +28,10 @@ class AnimationFragment : Fragment() {
         binding = FragmentAnimationBinding.inflate(layoutInflater, container, false)
         binding.root.setOnClickListener { startAndStopTimer() }
 
-        if (savedInstanceState != null) {
-            seconds = savedInstanceState.getDouble(SECONDS)
-            running = savedInstanceState.getBoolean(RUNNING)
-            wasRunning = savedInstanceState.getBoolean(WAS_RUNNING)
+        savedInstanceState?.run {
+            seconds = getDouble(SECONDS)
+            running = getBoolean(RUNNING)
+            wasRunning = getBoolean(WAS_RUNNING)
         }
         updateTime()
         return binding.root
@@ -43,11 +43,11 @@ class AnimationFragment : Fragment() {
             override fun run() {
                 updateTime()
                 if (running) {
-                    if(seconds>0) {
+                    if (seconds > 0) {
                         seconds -= 0.1
                         handler.postDelayed(this, 100)
-                    }else{
-                       findNavController().navigate(R.id.action_animationFragment_to_loginFragment)
+                    } else {
+                        findNavController().navigate(R.id.action_animationFragment_to_loginFragment)
                     }
                 }
             }
@@ -64,9 +64,11 @@ class AnimationFragment : Fragment() {
 
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
-        outState.putDouble(SECONDS, seconds)
-        outState.putBoolean(RUNNING, running)
-        outState.putBoolean(WAS_RUNNING, wasRunning)
+        outState.run {
+            putDouble(SECONDS, seconds)
+            putBoolean(RUNNING, running)
+            putBoolean(WAS_RUNNING, wasRunning)
+        }
     }
 
     override fun onStop() {
