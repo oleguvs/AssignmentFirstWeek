@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/animationFragment">
 
+    <fragment
+        android:id="@+id/animationFragment"
+        android:name="com.example.okuzminykh.assignmentfirstweek.AnimationFragment"
+        android:label="Animation"
+        tools:layout="@layout/fragment_animation" >
+        <action
+            android:id="@+id/action_animationFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/animationFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.okuzminykh.assignmentfirstweek.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login"/>
 </navigation>

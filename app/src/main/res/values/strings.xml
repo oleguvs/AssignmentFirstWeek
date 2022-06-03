@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">AssignmentFirstWeek</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="password_error">At least 8 characters(an uppercase and a numeric ones)</string>
+    <string name="user_name_error">Cannot be empty and must not contain spaces</string>
 </resources>
