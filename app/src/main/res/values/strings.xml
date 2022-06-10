@@ -1,5 +1,33 @@
 <resources>
     <string name="app_name">AssignmentFirstWeek</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+   <string name="result_message">You are %1$s %2$s, %4$s, age %3$s. You can%5$s play an instrument.
+   You listen to %6$s. Your favourite artist/band is %7$s. You have %8$sattended
+   a concert of your favorite artist/band. You listen to music %9$s.</string>
+    <string name="question_name">1. What is your name?</string>
+    <string name="question_last_name">2. What is your last name?</string>
+    <string name="question_age">3. How old are you?</string>
+    <string name="question_gender">4. Which gender are you?</string>
+    <string name="question_play_instrument">5. Can you play an instrument?</string>
+    <string name="question_genre">6. Which genre of music do you listen to?</string>
+    <string name="question_artist">7. Who is your favourite artist/band?</string>
+    <string name="question_concert">8. Have you ever attended a concert of your favorite artist?</string>
+    <string name="question_periodicity">9. How often do you listen to music?</string>
+    <string name="option_yes">Yes</string>
+    <string name="option_no">No</string>
+    <string name="option_daily">Every day</string>
+    <string name="option_weekly">Every week</string>
+    <string name="option_monthly">Every month</string>
+    <string name="option_rock">Rock</string>
+    <string name="option_jazz">Jazz</string>
+    <string name="option_rnb"><![CDATA[R&B]]></string>
+    <string name="option_pop">Pop</string>
+    <string name="option_hiphop">Hip/Hop</string>
+    <string name="option_classical">Classical</string>
+    <string name="option_rap">Rap</string>
+    <string name="option_falk">Falk</string>
+    <string name="option_reggae">Reggae</string>
+    <string name="option_male">male</string>
+    <string name="option_female">female</string>
+    <string name="button_label">Submit</string>
+ <string name="never">"never "</string>
 </resources>
