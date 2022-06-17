@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="question1">
+        <item />
+    </string-array>
+    <string-array name="question2">
+        <item />
+    </string-array>
+    <string-array name="question3">
+        <item>"15–17"</item>
+        <item>"18–20"</item>
+        <item>"21–24"</item>
+        <item>"25+"</item>
+    </string-array>
+    <string-array name="question4">
+        <item>"Male"</item>
+        <item>"Female"</item>
+    </string-array>
+    <string-array name="question5">
+        <item>"Yes"</item>
+        <item>"No"</item>
+    </string-array>
+    <string-array name="question6">
+        <item>"Rock"</item>
+        <item>"Jazz"</item>
+        <item>"RnB"</item>
+        <item>"Pop"</item>
+        <item>"Hip/hop"</item>
+        <item>"Classical"</item>
+        <item>"Rap"</item>
+        <item>"Falk"</item>
+        <item>"Reggae"</item>
+    </string-array>
+    <string-array name="question7">
+        <item />
+    </string-array>
+    <string-array name="question8">
+        <item>"Yes"</item>
+        <item>"No"</item>
+    </string-array>
+    <string-array name="question9">
+        <item>"Every day"</item>
+        <item>"Every week"</item>
+        <item>"Every month"</item>
+    </string-array>
+</resources>
