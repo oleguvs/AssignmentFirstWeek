@@ -1,7 +1,7 @@
-package com.example.okuzminykh.assignmentfirstweek.arch.provider
+package com.example.okuzminykh.arch.provider
 
 import android.content.Context
-import com.example.okuzminykh.assignmentfirstweek.arch.provider.model.TextProvider
+import com.example.okuzminykh.arch.provider.model.TextProvider
 
 class TextResProvider(private val context: Context) {
 

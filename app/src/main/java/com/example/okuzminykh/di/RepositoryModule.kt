@@ -1,6 +1,6 @@
-package com.example.okuzminykh.assignmentfirstweek.di
+package com.example.okuzminykh.di
 
-import com.example.okuzminykh.assignmentfirstweek.data.repository.*
+import com.example.okuzminykh.data.repository.*
 import org.koin.dsl.module
 
 val repositoryModule = module {

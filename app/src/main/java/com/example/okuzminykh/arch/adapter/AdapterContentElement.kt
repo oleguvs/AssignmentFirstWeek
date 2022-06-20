@@ -1,4 +1,4 @@
-package com.example.okuzminykh.assignmentfirstweek.arch.adapter
+package com.example.okuzminykh.arch.adapter
 
 interface AdapterContentElement {
 

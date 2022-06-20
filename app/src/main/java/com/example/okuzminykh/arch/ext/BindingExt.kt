@@ -1,4 +1,4 @@
-package com.example.okuzminykh.assignmentfirstweek.arch.ext
+package com.example.okuzminykh.arch.ext
 
 import android.annotation.SuppressLint
 import android.graphics.drawable.Drawable
@@ -15,7 +15,7 @@ import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.load.resource.gif.GifDrawable
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.RequestOptions
-import com.example.okuzminykh.assignmentfirstweek.utils.AppUtils
+import com.example.okuzminykh.utils.AppUtils
 
 @BindingAdapter("circleImage", "placeholder", requireAll = false)
 fun ImageView.bindCircleImage(image: String?, placeholder: Drawable?) {

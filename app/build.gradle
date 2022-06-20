@@ -4,14 +4,14 @@ plugins {
     id 'kotlin-kapt'
     id("kotlin-parcelize")
     id("kotlinx-serialization")
-    id("androidx.navigation.safeargs.kotlin")
 }
+apply plugin: 'androidx.navigation.safeargs.kotlin'
 
 android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.okuzminykh.assignmentfirstweek"
+        applicationId "com.example.okuzminykh"
         minSdk 23
         targetSdk 31
         versionCode 1
@@ -36,7 +36,7 @@ android {
     buildFeatures {
         dataBinding = true
     }
-    namespace 'com.example.okuzminykh.assignmentfirstweek'
+    namespace 'com.example.okuzminykh'
 }
 
 dependencies {

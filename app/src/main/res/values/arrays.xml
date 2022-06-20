@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="marks_array">
+        <item>cross</item>
+        <item>nought</item>
+    </string-array>
+</resources>

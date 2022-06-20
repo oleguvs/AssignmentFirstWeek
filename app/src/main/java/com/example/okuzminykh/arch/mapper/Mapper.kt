@@ -1,4 +1,4 @@
-package com.example.okuzminykh.assignmentfirstweek.arch.mapper
+package com.example.okuzminykh.arch.mapper
 
 interface Mapper<in Model, out DomainModel> {
 

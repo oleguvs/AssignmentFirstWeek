@@ -1,4 +1,4 @@
-package com.example.okuzminykh.assignmentfirstweek.arch
+package com.example.okuzminykh.arch
 
 import android.os.Bundle
 import androidx.annotation.LayoutRes

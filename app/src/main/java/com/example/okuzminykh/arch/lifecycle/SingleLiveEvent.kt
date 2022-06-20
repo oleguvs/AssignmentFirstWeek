@@ -1,4 +1,4 @@
-package com.example.okuzminykh.assignmentfirstweek.arch.lifecycle
+package com.example.okuzminykh.arch.lifecycle
 
 import androidx.annotation.MainThread
 import androidx.lifecycle.LifecycleOwner

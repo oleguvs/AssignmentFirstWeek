@@ -1,4 +1,4 @@
-package com.example.okuzminykh.assignmentfirstweek.utils
+package com.example.okuzminykh.utils
 
 import android.annotation.SuppressLint
 import java.text.ParseException

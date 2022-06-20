@@ -1,4 +1,4 @@
-package com.example.okuzminykh.assignmentfirstweek.arch
+package com.example.okuzminykh.arch
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
 import com.google.android.material.snackbar.Snackbar
-import com.example.okuzminykh.assignmentfirstweek.arch.ext.hideKeyboard
+import com.example.okuzminykh.arch.ext.hideKeyboard
 
 abstract class BaseFragment<T : ViewDataBinding>(@LayoutRes private val resId: Int) : Fragment() {
 

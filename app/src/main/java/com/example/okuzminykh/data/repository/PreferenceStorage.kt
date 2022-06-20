@@ -1,4 +1,4 @@
-package com.example.okuzminykh.assignmentfirstweek.data.repository
+package com.example.okuzminykh.data.repository
 
 import android.content.Context
 
