@@ -1,4 +1,4 @@
-package com.example.okuzminykh.assignmentfirstweek.arch.mapper
+package com.example.okuzminykh.arch.mapper
 
 class Either<out T>(val value: Any?) {
 

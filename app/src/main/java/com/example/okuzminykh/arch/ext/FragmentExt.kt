@@ -1,4 +1,4 @@
-package com.example.okuzminykh.assignmentfirstweek.arch.ext
+package com.example.okuzminykh.arch.ext
 
 import android.app.Activity
 import android.content.Context

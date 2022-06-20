@@ -1,4 +1,4 @@
-package com.example.okuzminykh.assignmentfirstweek.arch.provider.model
+package com.example.okuzminykh.arch.provider.model
 
 import android.os.Parcelable
 import androidx.annotation.StringRes

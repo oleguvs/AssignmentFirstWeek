@@ -1,6 +1,6 @@
-package com.example.okuzminykh.assignmentfirstweek.di
+package com.example.okuzminykh.di
 
-import com.example.okuzminykh.assignmentfirstweek.arch.provider.TextResProvider
+import com.example.okuzminykh.arch.provider.TextResProvider
 import org.koin.dsl.module
 
 val providerModule = module {

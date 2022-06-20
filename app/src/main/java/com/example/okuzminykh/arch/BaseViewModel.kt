@@ -1,9 +1,9 @@
-package com.example.okuzminykh.assignmentfirstweek.arch
+package com.example.okuzminykh.arch
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.okuzminykh.assignmentfirstweek.arch.lifecycle.SingleLiveEvent
+import com.example.okuzminykh.arch.lifecycle.SingleLiveEvent
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 
