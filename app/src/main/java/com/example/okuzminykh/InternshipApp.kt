@@ -2,6 +2,7 @@ package com.example.okuzminykh
 
 import android.app.Application
 import com.example.okuzminykh.di.viewModelModule
+
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
